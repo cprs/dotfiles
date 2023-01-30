@@ -16,4 +16,6 @@ return function (use)
     'rose-pine/neovim',
     as = 'rose-pine',
   })
+
+  use({ "dstein64/vim-startuptime" })
 end
