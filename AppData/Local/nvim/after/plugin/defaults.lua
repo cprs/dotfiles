@@ -15,3 +15,5 @@ require('lualine').setup {
     section_separators = { left = '', right = ''},
   }
 }
+
+vim.opt.guifont="FiraCode NFM:12"
