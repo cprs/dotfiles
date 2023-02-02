@@ -2,7 +2,7 @@
 	name = Johan Cuypers
 	email = johan.cuypers@engilico.com
 [core]
-	excludesfile = D:/git/scripts/.gitignore
+	excludesFile = C:\\Users\\jcuypers\\.gitignore
 	whitespace = cr-at-eol
 	autocrlf = false
 	editor = nvim
