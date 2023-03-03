@@ -71,8 +71,6 @@
 	recentlySeenVersion = 2.25.0.windows.1
 [http]
 	sslBackend = openssl
-[credential "http://euclid.microen.local:8080"]
-	provider = generic
 [credential "http://tfs-ctlg.mitutoyo-ctl.de"]
 	provider = generic
 [difftool "sourcetree"]
