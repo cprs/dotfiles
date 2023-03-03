@@ -18,4 +18,6 @@ return function (use)
   })
 
   use({ "dstein64/vim-startuptime" })
+
+  use({ "XadillaX/json-formatter.vim" })
 end
