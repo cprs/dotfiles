@@ -1,6 +1,7 @@
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme rose-pine]])
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
@@ -15,5 +16,4 @@ require('lualine').setup {
     section_separators = { left = '', right = ''},
   }
 }
-
-vim.opt.guifont="FiraCode NFM:12"
+vim.opt.guifont = 'SpaceMono NFM:h12'
