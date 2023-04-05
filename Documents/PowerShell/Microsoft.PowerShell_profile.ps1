@@ -12,6 +12,9 @@ function cdt {start "zoommtg://zoom.us/join?action=join&confno=96155246494&pwd=R
 # Support dotfiles repo
 function dotfiles {git.exe --git-dir=$home/.dotfiles/ --work-tree=$home $args}
 
+# Push nuget package to beta feed
+function beta-push {~/bin/nuget.exe push -Source Beta -ApiKey AzureDevOps $args}
+
 # Make Tab auto-complete behave more like Bash.
 Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
 
