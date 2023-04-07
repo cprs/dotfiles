@@ -1,6 +1,9 @@
 # Terminal prompt
 oh-my-posh --init --shell pwsh --config 'C:\Program Files (x86)\oh-my-posh\themes\takuya.omp.json' | Invoke-Expression
 
+# PATH
+$env:PATH += ";~/bin"
+
 # Zoom meetings
 function standup {start "zoommtg://zoom.us/join?action=join&confno=200913505&pwd=N1BoUU9LZXZhMnd4dDdCSUl1dGdMdz09"}
 function ryan {start "zoommtg://zoom.us/join?action=join&confno=8052719819"}
